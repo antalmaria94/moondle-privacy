@@ -19,11 +19,11 @@
 <body>
 <main>
   <h1>Moondle Privacy Policy</h1>
-  <p class="muted">Last updated: 19 November 2026</p>
+  <p class="muted">Last updated: 28 November 2026</p>
 
   <div class="box">
-    <strong>In short:</strong> Moondle has no accounts, no ads, no analytics and no server.
-    Everything the app stores stays on your phone, and nothing is sent to us or to anyone else.
+    <strong>In short:</strong> Moondle has no accounts and no ads. Your nickname, guesses and location are never sent to us.
+    The app does contact Expo's update service to check for new versions, and that sends some technical data (see "App updates").
   </div>
 
   <h2>What Moondle stores on your phone</h2>
@@ -33,26 +33,36 @@
     <li><strong>Pinned players</strong>: names you choose to keep on the start screen.</li>
     <li><strong>Settings</strong>, such as whether evening reminders are on.</li>
   </ul>
-  <p>This information is stored only in the app's storage on your device. It is not uploaded, shared or backed up by Moondle.</p>
+  <p>This information is stored in the app's storage on your device, and Moondle does not upload it. If you use Android's own backup, Android may include the app's data in your Google account's backup; you control that in your phone's settings.</p>
 
   <h2>Location</h2>
   <p>Location is optional. If you allow it, Moondle uses your approximate (city-level) location on your phone to show moonrise and moonset times, whether the Moon is up, and to draw the Moon as it looks from your hemisphere.</p>
-  <p>Your location is not saved and is never sent anywhere. You can play without it; the guessing game works the same either way.</p>
+  <p>Your coordinates are never sent anywhere and are not stored. For the home screen widget, the app stores the calculated moonrise and moonset times for the coming year on your phone. You can play without location; the guessing game works the same either way.</p>
+
+  <h2>App updates</h2>
+  <p>Moondle uses EAS Update, a service of Expo (650 Industries, Inc.), to receive fixes and new versions. When the app checks for or downloads an update over an encrypted connection, Expo receives:</p>
+  <ul>
+    <li>a random ID created for this installation of the app (not based on your device or any account),</li>
+    <li>your IP address, as with any internet request,</li>
+    <li>technical details: platform, app runtime version, update channel and update IDs,</li>
+    <li>if an update failed to start: the IDs of the failed updates and a short error text.</li>
+  </ul>
+  <p>Expo stores the random ID and IP address with the request, and uses the data to deliver updates and to count installations and failed updates. It processes this data on our behalf as a service provider. See <a href="https://docs.expo.dev/eas-update/store-privacy-declarations/">Expo's description</a> and <a href="https://expo.dev/privacy">privacy policy</a>. Without an internet connection nothing is sent, and the game still works.</p>
 
   <h2>Notifications</h2>
   <p>If you turn on evening reminders, Moondle schedules notifications on your phone (local notifications). No server is involved and no notification token is created or shared.</p>
 
   <h2>Data shared with third parties</h2>
-  <p>None. Moondle does not use advertising, analytics, crash reporting or tracking services, and it does not sell or share any data.</p>
+  <p>Moondle does not sell data and does not use advertising or cross-app tracking. Apart from the update service described above, the app sends no data to anyone.</p>
 
   <h2>Deleting your data</h2>
   <ul>
     <li>Delete single guesses, or all history, from the <strong>History</strong> screen in the app.</li>
-    <li>Uninstalling Moondle removes all of its data from your phone.</li>
+    <li>Uninstalling Moondle removes its data from your phone. A copy in your Android backup, if you use it, is managed in your Google account.</li>
   </ul>
 
   <h2>Children</h2>
-  <p>Moondle does not collect personal information from anyone, including children.</p>
+  <p>Moondle does not ask for personal information and is not directed at children under 13. The technical update data described above is the same for every user.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the new version will be published on this page with a new date.</p>
